@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Site</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- Logo -->
+      <a href="#" class="logo">Cod<span>ing</span></a>
+
+      <!-- Navigation -->
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Porfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hello</span>
+          <span class="two">I'm</span>
+        </div>
+        <h1>Kenny Chung</h1>
+        <h3>Front-end <span>Developer</span>.</h3>
+        <p>Self-Taught Developer, continuous learning journey.</p>
+        <div class="button">
+          <a href="#" class="btn">Say Hello</a>
+          <a href="#" class="btn2"
+            ><span><i class="bx bx-play"></i></span>Watch My Work</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about1.jpg" />
+      </div>
+
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Front-End Developer</h4>
+        <p>
+          I'm a Self-Taught Developer, Although I don't have much development
+          experience, I am interested in Coding and hope to be a developer in
+          the future.
+        </p>
+        <a href="#" class="btn">More About</a>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="services" id="services">
+      <div class="main-text">
+        <p>I can provide great services</p>
+        <h2><span>Category</span></h2>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <div class="services-icons">
+            <i class='bx bxl-sketch' ></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Customize the best design for your company</p>
+          <a href="#" class="details">Details</a>
+      </div>
+
+        <div class="box">
+          <div class="services-icons">
+            <i class='bx bxs-pointer'></i>
+          </div>
+          <h3>Front-end Development</h3>
+          <p>Customize the best design for your company</p>
+          <a href="#" class="details">Details</a>
+      </div>
+        <div class="box">
+          <div class="services-icons">
+            <i class='bx bx-minus-back'></i>
+          </div>
+          <h3>Back-end Development</h3>
+          <p>Customize the best design for your company</p>
+          <a href="#" class="details">Details</a>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <p>portfolio</p>
+        <h2><span>Lastest</span> Project</h2>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="img/portfolio.jpg">
+          <div class="layer">
+            <h5>Portfolio Website</h5>
+            <p>Introduce my Personal Information</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+          <div class="row">
+            <img src="img/todolist.jpg">
+            <div class="layer">
+              <h5>Todolist App</h5>
+              <p>Productive Every Day!</p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="img/onlineshop.jpg">
+            <div class="layer">
+              <h5>Onlineshop</h5>
+              <p>Get everything you want!</p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h4>If you have any idea need someone to deploy.</h4>
+        <p>I can help you to make it.</p>
+        <div class="list">
+          <li><a href="#">12345678</a></li>
+          <li><a href="#">laikeichung4397@gmail.com</a></li>
+       </div>
+
+        <div class="contact-icons">
+         <a href="#"><i class="bx bxl-linkedin"></i></a>
+         <a href="#"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+
+
+      <div class="contact-form">
+        <form action="">
+          <input type="name" placeholder="Your Name" required>
+          <input tpye="email" placeholder="Your Email Address" required>
+          <input type="" placeholder="Your Mobile Number" required>
+          <textarea name="" id="" cols="35" rows="10" placeholder="Services" required></textarea>
+          <input type="sumbit" value="Send Message" class="submit main-text" required>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="last-text">
+        <p>Copyright &copy; 2022 by Kenny Chung</p>
+      </div>
+
+      <div class="top">
+        <a href="#home"><i class="bx bx-up-arrow-alt" ></i></a>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
